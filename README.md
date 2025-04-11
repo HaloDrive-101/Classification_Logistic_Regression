@@ -1,12 +1,3 @@
 # Classification_Logistic_Regression
 
-1) Quantitative Structure-Activity Relationships (QSAR) is a modeling technique in chemoinformatics used in pharmacology and chemistry.
-2) QSAR aims to relate the chemical structure of molecules and their biological or chemical activity through mathematical models.
-3) QSAR models establish mathematical correlations between molecular structural descriptors and their biological/chemical properties.
-4) The dataset used is open source, that contains QSAR information along with the biodegradability status of 1,055 chemicals.
-5) Each row in the dataset represents a single chemical.
-6) a) The first 41 columns represent features that describe each chemical.
-   b) The final column is the data label - 1 for biodegradable, 0 indicates non-biodegradable
-7) A logistic regression model is used to predict if chemicals are biodegradable or not based on their 41 attributes.
-8) 5-fold cross-validation is implemented to ensure the model generalizes well to chemicals beyond the dataset.
-9) The final goal is to improve the model's ability to distinguish between biodegradable and non-biodegradable chemicals.
+Quantitative Structure-Activity Relationships (QSAR) is a modeling technique in chemoinformatics used in pharmacology and chemistry. QSAR aims to relate the chemical structure of molecules and their biological or chemical activity through mathematical models. This model establishes mathematical correlations between molecular structural descriptors and their biological/chemical properties. The dataset used is open source, that contains QSAR information along with the biodegradability status of 1,055 chemicals. Each row in the dataset represents a single chemical. The first 41 columns represent features that describe each chemical. The final column is the data label - 1 for biodegradable, 0 indicates non-biodegradable. A logistic regression model is used to predict if chemicals are biodegradable or not based on their 41 attributes. 5-fold cross-validation is implemented to ensure the model generalizes well to chemicals beyond the dataset. The final goal is to improve the model's ability to distinguish between biodegradable and non-biodegradable chemicals. Performance of the model is evaluated using some metrics like confusion matrix, F1-score, and ROC curve. A report is included for a detailed analysis on the model designed.
